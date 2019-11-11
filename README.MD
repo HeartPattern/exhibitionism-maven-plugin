@@ -36,22 +36,22 @@ Exhibitionism make all class, field, and method to public and non final.
 ### output
 Specify output file. If not configured, replace origianal file.
 
-## parallel (Default=1)
+### parallel (Default=1)
 Number of thread used to transform class. By default, use single thread
 
-## open (Default=true)
+### open (Default=true)
 Whether make non final.
 
-## publify (Default=true)
+### publify (Default=true)
 Whether make public.
 
-## debug (Default=false)
+### debug (Default=false)
 Whether print debug message
 
-## noStaticFinal (Default=false)
+### noStaticFinal (Default=false)
 If configured to true, do not make static final field to non final.
 
-## paths
+### paths
 Filter paths to apply exhibitionism. For example, paths is set to net/minecraft then all class inside package net.minecraft will be transformed by exhibitionism.
 
 ## Example configuration
